@@ -1,0 +1,126 @@
+/* Bebas Neue */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* import rule- font-family: 'VT323', monospace; */
+
+/* Moontime */
+
+@font-face {
+    font-family: "Moontime";
+    src: url("../fonts/FontsFree-Net-MoonTime-Regular-1.ttf");
+    src: url("../fonts/FontsFree-Net-MoonTime-Regular-1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.moontime-font {
+    font-family: "Moontime", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Glacial indiference */
+@font-face {
+    font-family: "Glacial";
+    src: url("../fonts/GlacialIndifference-Regular.otf");
+    src: url("../fonts/GlacialIndifference-Regular.otf") format("OpenType");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.glacial-regular-text {
+    font-family: "Glacial", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Glacial";
+    src: url("../fonts/GlacialIndifference-Bold.otf");
+    src: url("../fonts/GlacialIndifference-Bold.otf") format("OpenType");
+    font-weight: bold;
+    font-style: normal;
+}
+
+.glacial-bold-text {
+    font-family: "Glacial", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Nickanley */
+
+@font-face {
+    font-family: "Nickanley";
+    src: url("../fonts/Nickainley-Normal.otf");
+    src: url("../fonts/Nickainley-Normal.otf") format("OpenType");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nickanley-font {
+    font-family: "Nickanley", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* neon effect */
+
+.neon-text-white {
+    color: white;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #fff,
+        0 0 82px #fff,
+        0 0 92px #fff,
+        0 0 102px #fff,
+        0 0 151px #fff;
+    ;
+}
+
+.neon-text-yellow {
+    color: #f9f97a;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+
+        0 0 42px #ff8708,
+        0 0 82px #ff8708,
+        0 0 92px #ff8708,
+        0 0 102px #ff8708,
+        0 0 151px #ff8708;
+}
+
+.neon-text-black {
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+.neon-text-black-to-white {
+    color: black;
+    text-shadow: 0px 0px 3px rgb(78, 77, 77);
+}
+
+.logo-bg-text {
+    font-family: 'Bebas Neue', cursive;
+    color: #BF09BD;
+    text-shadow: 0px 0px 10px #BF09BD;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.header-text {
+    font-size: 7em;
+}
+
+@media screen and (min-width: 768px) {
+    .header-text {
+        font-size: 12em;
+    }
+}

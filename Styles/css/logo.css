@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.logo {
+    padding-top: 1.5rem;
+    display: block;
+    margin: auto;
+}
+
+.logo .logo-container {
+    position: relative;
+}
+
+.logo>p {
+    text-align: left;
+}
+
+.logo>div {
+    display: inline-block;
+}
+
+.logo .logo-container>p {
+    font-size: 8.5rem;
+}
+
+/* front text */
+.logo .logo-container span {
+    font-size: 7rem;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+}
+
+.logo>p {
+    line-height: 1.5rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+    margin-top: -2.5rem;
+    color: white;
+    font-size: 1.5em;
+}
+
+.logo>p>span {
+    font-size: .5em;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .logo {
+        position: absolute;
+        left: 3rem;
+    }
+}
