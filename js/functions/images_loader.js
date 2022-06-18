@@ -15,7 +15,7 @@ let getImgsList = () => {
     let imagesName = []
 
     for (let i = 0; i < getPicsNum(); i++) {
-        imagesName.push(picsTopic[0].toUpperCase() + (i + 1) + ".jpg")
+        imagesName.push(picsTopic[0].toUpperCase() + "-(" + (i + 1) + ").jpg")
     }
     return imagesName
 }

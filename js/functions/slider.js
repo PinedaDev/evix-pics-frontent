@@ -9,7 +9,7 @@ let items = [...document.querySelectorAll(".slider-item")]
 let images = [...document.querySelectorAll(".img-div")]
 
 images.forEach((image, idx) => {
-    image.style.backgroundImage = `url(./assets/gallery/categories/${idx + 1}.png)`
+    image.style.backgroundImage = `url(./assets/gallery/categories/${idx + 1}.jpg)`
 })
 
 function create_clones() {

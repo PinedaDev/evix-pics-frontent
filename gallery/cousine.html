@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvixPics</title>
+    <link rel="stylesheet" href="../Styles/css/fonts.css">
+    <link rel="stylesheet" href="../Styles/css/gallery_content.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.6.96/css/materialdesignicons.min.css">
+    <style>
+        @media screen and (min-width: 768px) {
+            .grid {
+                cursor: pointer;
+                --col-num: 3;
+                grid-auto-rows: 300px;
+            }
+
+            .C-\(2\),
+            .C-\(8\),
+            .C-\(11\) {
+                grid-row: span 2;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <main class="hero">
+        <div class="bg-img"></div>
+        <div class="content-section">
+            <a href="../index.html">
+                <div class="logo">
+                    <div class="logo-container">
+                        <p class="logo-bg-text">
+                            Evix
+                        </p>
+                        <span class="logo-fornt-text moontime-font neon-text-white">
+                            pics
+                        </span>
+                    </div>
+                </div>
+            </a>
+            <h1 class="neon-text-white moontime-font">Cuisine</h1>
+            <div class="grid pics-26">
+
+            </div>
+            <footer class="moontime-font">
+                <div>
+                    <div class="img-border">
+                        <div class="contact-img"></div>
+                    </div>
+                    <p>Eevi Hautajarvi</p>
+                </div>
+                <div>
+                    <span class="mdi mdi-instagram"></span>
+                    <a href="https://www.instagram.com/evix_pics/">evix_pics</a>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+</body>
+<script src="../js/functions/images_loader.js"></script>
+<script src="../js/functions/lightbox.js"></script>
+
+</html>
