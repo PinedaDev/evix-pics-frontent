@@ -71,6 +71,21 @@ footer p::after {
 footer a {
     text-decoration: none;
     color: white;
+    transition: .3s;
+}
+
+footer a:hover {
+    color: rgb(204, 98, 215);
+    text-shadow:
+        0 0 7px #ff08ea,
+        0 0 10px #ff08ea,
+        0 0 21px #ff08ea,
+
+        0 0 42px #ff08ea,
+        0 0 82px #ff08ea,
+        0 0 92px #ff08ea,
+        0 0 102px #ff08ea,
+        0 0 151px #ff08ea;
 }
 
 footer .img-border {
@@ -102,6 +117,22 @@ footer>div {
     justify-content: center;
     align-items: center;
 }
+
+
+footer .pinedadev a:hover {
+    color: #00d5ff;
+    text-shadow:
+        0 0 7px #00d5ff,
+        0 0 10px #00d5ff,
+        0 0 21px #00d5ff,
+
+        0 0 42px #00d5ff,
+        0 0 82px #00d5ff,
+        0 0 92px #00d5ff,
+        0 0 102px #00d5ff,
+        0 0 151px #00d5ff;
+}
+
 
 @media screen and (min-width: 769px) {
     footer {
