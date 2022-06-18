@@ -76,7 +76,7 @@ footer a {
 footer .img-border {
     display: grid;
     place-items: center;
-    border: 2px solid yellow;
+    border: 2px solid rgb(204, 98, 215);
     border-radius: 50%;
     height: 60px;
     width: 60px;

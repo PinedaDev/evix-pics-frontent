@@ -12,6 +12,13 @@
     overflow-x: scroll;
 }
 
+@media screen and (max-width: 400px) {
+    .slider-wrapper {
+        top: 39%;
+    }
+
+}
+
 .slider-wrapper::-webkit-scrollbar {
     display: none;
 }
@@ -55,7 +62,7 @@
     height: 189px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     transition: .4s;
 }
 

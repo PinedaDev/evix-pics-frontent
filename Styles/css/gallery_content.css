@@ -116,14 +116,14 @@ h1 {
     cursor: pointer;
     font-size: 2em;
     position: absolute;
-    top: 5%;
+    top: 90%;
     color: white;
     transition: .3s ease-in-out;
 }
 
 .lightbox>.mdi:hover {
     font-size: 2.5em;
-    color: red;
+    color: rgb(204, 98, 215);
 }
 
 /* ----------------- */
@@ -197,5 +197,6 @@ footer>div {
 
     .lightbox>.mdi {
         left: 95%;
+        top: 5%;
     }
 }
