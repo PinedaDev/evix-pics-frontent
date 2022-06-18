@@ -73,7 +73,7 @@ function onLoad() {
     calculate_dimensions()
     // change the scrolling method in function with the device
     if (window.innerWidth <= 768) {
-        scroll_update_phone();
+        return;
     } else {
         create_clones()
         create_clones()
